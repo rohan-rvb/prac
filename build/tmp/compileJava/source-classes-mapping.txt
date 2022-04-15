@@ -1,0 +1,20 @@
+org/example/prac/Application.java
+ org.example.prac.Application
+org/example/prac/command/pojo/Command.java
+ org.example.prac.command.pojo.Command
+org/example/prac/strategy/ex1/flyStrategy/Flys.java
+ org.example.prac.strategy.ex1.flyStrategy.Flys
+org/example/prac/strategy/ex1/Animal.java
+ org.example.prac.strategy.ex1.Animal
+org/example/prac/command/executors/CommandExecutor.java
+ org.example.prac.command.executors.CommandExecutor
+org/example/prac/strategy/ex1/flyStrategy/NFly.java
+ org.example.prac.strategy.ex1.flyStrategy.NFly
+org/example/prac/strategy/ex1/Cat.java
+ org.example.prac.strategy.ex1.Cat
+org/example/prac/command/CommandRunner.java
+ org.example.prac.command.CommandRunner
+org/example/prac/strategy/ex1/flyStrategy/Ifly.java
+ org.example.prac.strategy.ex1.flyStrategy.Ifly
+org/example/prac/strategy/ex1/Bird.java
+ org.example.prac.strategy.ex1.Bird
