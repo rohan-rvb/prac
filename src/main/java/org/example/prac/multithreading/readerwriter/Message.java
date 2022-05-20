@@ -1,10 +1,8 @@
-package org.example.prac.questions.readerwriter;
+package org.example.prac.multithreading.readerwriter;
 
 import lombok.extern.slf4j.Slf4j;
 
-import java.util.concurrent.Semaphore;
 import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
 
 @Slf4j
 public class Message {

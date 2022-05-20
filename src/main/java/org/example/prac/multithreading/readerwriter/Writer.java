@@ -1,7 +1,8 @@
-package org.example.prac.questions.readerwriter;
+package org.example.prac.multithreading.readerwriter;
 
 public class Writer implements Runnable{
     private Message message;
+
     public Writer(Message message) {
         this.message = message;
     }

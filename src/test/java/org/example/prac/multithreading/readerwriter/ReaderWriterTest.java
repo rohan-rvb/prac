@@ -1,4 +1,4 @@
-package org.example.prac.questions.readerwriter;
+package org.example.prac.multithreading.readerwriter;
 
 import lombok.SneakyThrows;
 import org.junit.Test;

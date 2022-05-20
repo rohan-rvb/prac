@@ -1,4 +1,4 @@
-package org.example.prac.questions.readerwriter;
+package org.example.prac.multithreading.readerwriter;
 
 public class Reader implements Runnable{
     private Message message;
