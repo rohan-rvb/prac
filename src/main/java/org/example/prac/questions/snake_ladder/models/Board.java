@@ -11,7 +11,6 @@ public class Board {
     public Board(int size) {
         this.cells = new ArrayList<>();
         for(int i=0;i<size;i++) {
-            this.cells.add(Cell.);
         }
     }
 }

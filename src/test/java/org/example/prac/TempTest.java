@@ -6,6 +6,13 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
+
 
 @Slf4j
 @RunWith(SpringRunner.class)
@@ -26,5 +33,23 @@ public class TempTest {
         input1.reverse();
 System.out.println();
         log.info("reversed {}", input1);
+    }
+
+    @Test
+    public void testList() {
+        List<Integer> list = new ArrayList<>(10);
+
+        ExecutorService executorService = Executors.newFixedThreadPool(4);
+        Future<Integer> future1 = executorService.submit(()->{
+            return 2;
+        });
+
+
+
+        Future<Integer> future2 = executorService.submit(()->5);
+
+
+
+
     }
 }

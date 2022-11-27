@@ -23,6 +23,7 @@ public class Publisher implements Subject{
     @Override
     public void unregister(Observer o) {
         int index = consumers.indexOf(o);
+
         consumers.remove(index);
     }
 
